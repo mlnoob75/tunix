@@ -87,6 +87,10 @@ otel = [
 frozenlake = [
   "gymnasium",
 ]
+openenv = [
+  # Client for OpenEnv servers, used by tunix/experimental/openenv.
+  "openenv>=0.3",
+]
 experimental = [
   "absl-py",
   "cloudpickle",  # serialization envelope for the remote-execution actor protocol
